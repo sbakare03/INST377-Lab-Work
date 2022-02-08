@@ -1,5 +1,5 @@
-* {
-    box-sizing: border-box;
+* p {
+    box-sizing: border-box; 
   }
   
   p {
@@ -30,6 +30,14 @@
   
   nav a {
     color: rgba(0,139, 139, 1);
+  }
+
+  .list_element {
+    background-color: gray;
+  }
+
+  #header {
+    display: inline-block;
   }
   
   
@@ -99,7 +107,11 @@
     display: block;
   }
   
-  .section_4 div.left{
+  .section_4:hover{
+    background-color: ;
+  }
+  
+  .section_4 div.text{
     display: block;
     border-radius: 4px;
     background-color: #ff8c00a6;
@@ -113,7 +125,7 @@
     padding:0;
   }
   
-  .section_4 div.right{
+  .section_4 div.text{
     display: block;
     border-radius: 4px;
     background-color: #ffe100a6;
@@ -176,3 +188,10 @@
     height: 100%;
   }
   
+.list_element {
+  background-color: azure;
+}
+
+#header {
+
+}
