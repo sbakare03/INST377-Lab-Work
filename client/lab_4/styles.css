@@ -100,7 +100,7 @@
 }
 
 .carousel .carousel__item,
-.carousel .carousel_item--hidden {
+.carousel .carousel__item--hidden {
   display: none;
 }
 
@@ -134,11 +134,11 @@
   height: 40px;
 }
 
-.carousel .carousel__actions button# carousel_button--prev{
+.carousel .carousel__actions button #carousel__button--prev{
   margin-left: 20px;
 }
 
-.carousel .carousel__actions button# carousel_button--next{
+.carousel .carousel__actions button #carousel__button--next{
   margin-right: 20px;
 }
 
